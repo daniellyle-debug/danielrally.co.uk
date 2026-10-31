@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Daniel Rally</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+nav{
+
+position:fixed;
+top:0;
+left:0;
+
+width:100%;
+
+background:rgba(0,0,0,.85);
+
+padding:20px;
+
+text-align:center;
+
+z-index:1000;
+
+backdrop-filter:blur(8px);
+
+}
+
+nav a{
+
+color:white;
+
+text-decoration:none;
+
+margin:0 20px;
+
+font-weight:bold;
+
+}
+
+nav a:hover{
+
+color:#ff0000;
+
+}
+body{
+    font-family:Segoe UI, Arial, sans-serif;
+    background:#111;
+    color:white;
+}
+
+.hero{
+
+    height:100vh;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.65),
+    rgba(0,0,0,0.85)
+    ),
+    url("wheel-photo.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+}
+
+.hero-content{
+    max-width:900px;
+    padding:20px;
+}
+
+.logo{
+    width:180px;
+
+    filter:
+    drop-shadow(0 0 10px red)
+    drop-shadow(0 0 25px red);
+
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:4rem;
+    text-transform:uppercase;
+    letter-spacing:4px;
+}
+
+.tagline{
+    font-size:1.4rem;
+    color:#cccccc;
+    margin-top:15px;
+}
+
+.button{
+
+    display:inline-block;
+
+    margin-top:30px;
+
+    padding:15px 30px;
+
+    background:#cc0000;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    font-weight:bold;
+}
+
+.button:hover{
+    background:#ff0000;
+}
+.content-section{
+
+</div>
+
+</div>
+
+</section>
+padding:80px 10%;
+
+background:#111;
+
+}
+
+.content-section h2{
+
+text-align:center;
+
+font-size:2.5rem;
+
+margin-bottom:30px;
+
+color:#ff3333;
+
+}
+
+.content-box{
+
+max-width:900px;
+
+margin:auto;
+
+background:#181818;
+
+padding:30px;
+
+border-radius:15px;
+
+border:1px solid rgba(255,0,0,.25);
+
+line-height:1.8;
+
+}
+.rig-grid{
+
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(280px,1fr));
+
+gap:25px;
+
+max-width:1200px;
+
+margin:auto;
+
+}
+
+.rig-card{
+
+background:#181818;
+
+padding:25px;
+
+border-radius:15px;
+
+border:1px solid rgba(255,0,0,.25);
+
+}
+
+.rig-card h3{
+
+margin-bottom:15px;
+
+color:#ff3333;
+
+}
+
+.rig-card ul{
+
+list-style:none;
+
+}
+
+.rig-card li{
+
+padding:8px 0;
+
+border-bottom:1px solid #333;
+
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#rig">Rig Setup</a>
+<a href="#videos">Videos</a>
+<a href="#links">Links</a>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<img src="DanielGamingLogo.png" class="logo">
+
+<h1>Daniel Rally</h1>
+
+<p class="tagline">
+Liverpool Sim Racing • Rally Gaming • Content Creator
+</p>
+
+<a
+class="button"
+href="https://www.youtube.com/@dannylyle"
+target="_blank">
+Watch On YouTube
+</a>
+
+</div>
+
+</section>
+<section id="videos" class="content-section">
+
+<h2>Latest Videos</h2>
+
+<div class="content-box">
+
+<p>
+Watch the latest uploads from Daniel Rally.
+</p>
+
+<br>
+
+<a
+class="button"
+href="https://www.youtube.com/@dannylyle/videos"
+target="_blank">
+
+View Latest Uploads
+
+</a>
+
+</div>
+
+</section>
+<section id="links" class="content-section">
+
+<h2>Connect With Daniel Rally</h2>
+
+<div class="rig-grid">
+
+<div class="rig-card">
+
+<h3>🏁 YouTube</h3>
+
+<p>
+Follow the latest rally stages, cockpit cams and channel updates.
+</p>
+
+<br>
+
+<a class="button"
+href="https://www.youtube.com/@dannylyle"
+target="_blank">
+Visit Channel
+</a>
+
+</div>
+
+<div class="rig-card">
+
+<h3>🎮 Steam</h3>
+
+<p>
+Check out my gaming profile and see what I'm racing.
+</p>
+
+<br>
+
+<a class="button"
+href="#"
+target="_blank">
+Steam Profile
+</a>
+
+</div>
+
+<div class="rig-card">
+
+<h3>💬 Assetto Corsa</h3>
+
+<p>
+Join the community and stay up to date with Assetto Corsa discussions.
+</p>
+
+<br>
+
+<a class="button"
+href="#"
+target="_blank">
+AC Discord
+</a>
+
+</div>
+
+<div class="rig-card">
+
+<h3>🌐 Website</h3>
+
+<p>
+Visit DanielRally.co.uk for updates and future content.
+</p>
+
+<br>
+
+<a class="button"
+href="https://danielrally.co.uk"
+target="_blank">
+DanielRally.co.uk
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="about" class="content-section">
+
+<h2>About Daniel Rally</h2>
+
+<div class="content-box">
+
+<p>
+Welcome to Daniel Rally, a Liverpool-based sim racing channel focused on
+Assetto Corsa Rally, cockpit driving, content creation, and learning to
+go faster one stage at a time.
+</p>
+
+<br>
+
+<p>
+I'm just a Scouser with a rally wheel, a handbrake, and more enthusiasm
+than talent. Follow along as I improve my driving, upgrade my setup,
+and share the successes, mistakes, and everything in between.
+</p>
+
+</div>
+
+</section>
+
+<section id="rig" class="content-section">
+
+<h2>My Sim Racing Setup</h2>
+
+<div class="rig-grid">
+
+<div class="rig-card">
+<h3>🏁 Rig</h3>
+
+<ul>
+<li>GT Omega Cockpit</li>
+<li>Logitech G923 Wheel</li>
+<li>Logitech Pedals</li>
+<li>Logitech Shifter</li>
+<li>USB Handbrake</li>
+</ul>
+
+</div>
+
+<div class="rig-card">
+<h3>🖥️ PC</h3>
+
+<ul>
+<li>Ryzen 9 7900X</li>
+<li>RTX 4070 Ti</li>
+<li>128GB DDR5</li>
+<li>8TB NVMe Storage</li>
+</ul>
+
+</div>
+
+<div class="rig-card">
+<h3>🎮 Displays</h3>
+
+<ul>
+<li>Z-Edge 32" 240Hz</li>
+<li>BenQ EL2870U 4K</li>
+<li>Astro A50 Headset</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+
+</section>
+</body>
+</html>
